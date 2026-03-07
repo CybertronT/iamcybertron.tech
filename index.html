@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adewale Fawaz — Infrastructure · DevSecOps · Backend Engineer</title>
+<meta name="description" content="Adewale Fawaz Oladimeji — 5+ years building enterprise infrastructure, DevSecOps pipelines, backend systems, and cybersecurity solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo"><b>Cyber</b>tron</div>
+  <div class="loader-bar-wrap"><div class="loader-bar" id="lbar"></div></div>
+  <div class="loader-pct" id="lpct">0%</div>
+</div>
+<div id="scroll-prog"></div>
+<div id="cur"></div><div id="cur-o"></div>
+<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#hero" class="n-logo"><b>Cyber</b>tron</a>
+  <div class="n-links">
+    <a href="#about">About</a><a href="#experience">Experience</a>
+    <a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#github">GitHub</a><a href="#blog">Blog</a>
+    <a href="#freelance">Reviews</a><a href="#contact">Contact</a>
+  </div>
+  <div style="display:flex;gap:1rem;align-items:center">
+    <a href="#contact" class="n-cta">Hire Me</a>
+    <button class="n-burger" id="burger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mob-menu" id="mob-menu">
+  <button class="mob-close" id="mob-close">Close ✕</button>
+  <a href="#about" class="mob-lnk">About</a><a href="#experience" class="mob-lnk">Experience</a>
+  <a href="#skills" class="mob-lnk">Skills</a><a href="#projects" class="mob-lnk">Projects</a>
+  <a href="#github" class="mob-lnk">GitHub</a><a href="#blog" class="mob-lnk">Blog</a>
+  <a href="#freelance" class="mob-lnk">Reviews</a><a href="#contact" class="mob-lnk">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="h-left">
+    <div>
+      <div class="h-eyebrow">Available Worldwide · Remote &amp; Onsite</div>
+      <h1 class="h-name">Adewale<br><i>Fawaz</i><br>Oladimeji</h1>
+      <div class="h-roles">
+        <span class="rpill">Infrastructure Engineer</span><span class="rpill">DevSecOps</span>
+        <span class="rpill">Backend Developer</span><span class="rpill">Cybersecurity</span>
+        <span class="rpill">IoT Engineer</span><span class="rpill">Cloud &amp; Automation</span>
+      </div>
+      <p class="h-bio">5+ years building <strong>fault-tolerant infrastructure</strong>, automating deployments, securing systems, and shipping production backends for companies in Nigeria and the United States. <strong>100% on-time · 100% on-budget</strong> across 16+ global clients.</p>
+      <div class="h-btns">
+        <a href="#projects" class="btn-fill">View My Work</a>
+        <a href="my_latest_cv.pdf" class="btn-line" download>Download CV</a>
+      </div>
+    </div>
+    <div class="h-bottom">
+      <div><div class="h-stat-n">5<span>+</span></div><div class="h-stat-l">Years Exp.</div></div>
+      <div><div class="h-stat-n">5.0<span>★</span></div><div class="h-stat-l">FL Rating</div></div>
+      <div><div class="h-stat-n">16<span>+</span></div><div class="h-stat-l">Reviews</div></div>
+      <div><div class="h-stat-n">20<span>+</span></div><div class="h-stat-l">Systems Built</div></div>
+    </div>
+  </div>
+  <div class="h-right">
+    <div class="h-photo-bg">
+      <img src="images/man.png" alt="cybertron" class="h-photo" onerror="this.style.display='none'">
+    </div>
+    <div class="h-overlay"></div>
+    <div class="h-status">
+      <div class="h-status-t">Current Status</div>
+      <div class="h-status-v"><div class="sdot"></div>Open to New Projects</div>
+    </div>
+    <div class="h-cos">
+      <span class="hco">Segilola Resources · 3yrs</span>
+      <span class="hco">NextResearch LLC · 2yrs</span>
+      <span class="hco">Freelancer.com ⭐ 5.0</span>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span class="ti">Infrastructure Engineering</span><span class="ti">DevSecOps</span><span class="ti">Ansible AWX</span><span class="ti">HashiCorp Vault</span><span class="ti">Terraform</span><span class="ti">PHP · NodeJS · Python</span><span class="ti">Cybersecurity</span><span class="ti">Fiber Optics</span><span class="ti">Starlink Systems</span><span class="ti">Penetration Testing</span><span class="ti">AWS · Azure</span><span class="ti">CI/CD Pipelines</span><span class="ti">Linux Administration</span><span class="ti">Suricata NIDS</span><span class="ti">Mikrotik · Cisco</span><span class="ti">MySQL · REST APIs</span><span class="ti">Docker · Git</span><span class="ti">Cloudflare · Zero Trust</span>
+    <span class="ti">Infrastructure Engineering</span><span class="ti">DevSecOps</span><span class="ti">Ansible AWX</span><span class="ti">HashiCorp Vault</span><span class="ti">Terraform</span><span class="ti">PHP · NodeJS · Python</span><span class="ti">Cybersecurity</span><span class="ti">Fiber Optics</span><span class="ti">Starlink Systems</span><span class="ti">Penetration Testing</span><span class="ti">AWS · Azure</span><span class="ti">CI/CD Pipelines</span><span class="ti">Linux Administration</span><span class="ti">Suricata NIDS</span><span class="ti">Mikrotik · Cisco</span><span class="ti">MySQL · REST APIs</span><span class="ti">Docker · Git</span><span class="ti">Cloudflare · Zero Trust</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-ey">About</div>
+  <h2 class="sec-h">The Engineer<br>Behind <i>Cybertron</i></h2>
+  <div class="about-grid">
+    <div class="about-text rv">
+      <p>I'm <strong>Adewale Fawaz Oladimeji</strong> — an Infrastructure, DevSecOps, and Backend Engineer operating as <strong>Cybertron</strong>. I build systems that are secure by design, automated to the core, and built to last under pressure.</p>
+    
+        <p>With 5+ years of experience, I've managed <strong>offshore mining site connectivity via Starlink</strong>, deployed <strong>CI/CD pipelines with Ansible AWX and Terraform</strong>, hardened Linux servers, built full-stack backend applications, and completed cloud migrations — all for real companies across Nigeria and the United States.</p>
+      <p>I hold dual full-time roles: <strong>ICT Infrastructure Lead</strong> at Segilola Resources Operating Limited and <strong>DevSecOps / Backend Engineer</strong> at NextResearch LLC (remote, USA). Alongside this, I've built a reputation on Freelancer.com with a <strong>perfect 5.0 rating across 16+ reviews</strong> from clients in the USA, UK, Saudi Arabia, Australia, India, and Bangladesh.</p>
+      <p>I approach every project with the discipline of an engineer and the paranoia of a security specialist — because the best systems are the ones that never make the news.</p>
+        <div class="ir"><span class="ik">Primary</span><span class="iv"><a href="mailto:fawazadewale120@gmail.com">fawazadewale120@gmail.com</a></span></div>
+        <div class="ir"><span class="ik">Tech</span><span class="iv"><a href="mailto:cybertrontech34@gmail.com">cybertrontech34@gmail.com</a></span></div>
+        <div class="ir"><span class="ik">Phone</span><span class="iv">+234 704 035 7149</span></div>
+        <div class="ir"><span class="ik">LinkedIn</span><span class="iv"><a href="https://www.linkedin.com/in/adewale-fawaz-oladimeji-172b05215/" target="_blank">Adewale Fawaz Oladimeji</a></span></div>
+        <div class="ir"><span class="ik">Freelancer</span><span class="iv"><a href="https://www.freelancer.com/u/cybertr0n" target="_blank">@cybertr0n · 5.0★</a></span></div>
+        <div class="ir"><span class="ik">Status</span><span class="iv av"><div class="sdot"></div>Available for Projects</span></div>
+      </div>
+    </div>
+    <div class="rvr">
+      <div class="fl-stats">
+        <div class="fl-stat"><div class="fl-num">5.0<span>★</span></div><div class="fl-label">Rating</div></div>
+        <div class="fl-stat"><div class="fl-num">16<span>+</span></div><div class="fl-label">Reviews</div></div>
+        <div class="fl-stat"><div class="fl-num">100<span>%</span></div><div class="fl-label">On Time</div></div>
+        <div class="fl-stat"><div class="fl-num">100<span>%</span></div><div class="fl-label">On Budget</div></div>
+      </div>
+      <div class="certs">
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div><div class="cert-n">CCNA 1</div><div class="cert-i">Cisco · Networking</div></div></div>
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999A5.002 5.002 0 003 9v6z"/></svg></div><div><div class="cert-n">Azure Fundamentals (AZ-900)</div><div class="cert-i">Microsoft Certified</div></div></div>
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="cert-n">Security, Compliance &amp; Identity (SC-900)</div><div class="cert-i">Microsoft Certified</div></div></div>
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><div><div class="cert-n">Linux Unhatched</div><div class="cert-i">Cisco / Linux Foundation</div></div></div>
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><div><div class="cert-n">CyberOps Associate</div><div class="cert-i">Cisco · Cybersecurity</div></div></div>
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2M12 12v4M10 14h4"/></svg></div><div><div class="cert-n">Introduction to IoT</div><div class="cert-i">Cisco Networking Academy</div></div></div>
+        <div class="cert"><div class="cert-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8" width="16" height="16"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div><div><div class="cert-n">Introduction to Cybersecurity</div><div class="cert-i">Cisco Networking Academy</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="sec-ey">Experience</div>
+  <h2 class="sec-h">Where I've <i>Worked</i></h2>
+  <div class="exp-layout">
+
+    <!-- sidebar -->
+    <div class="exp-nav">
+      <div class="exp-tab active" data-p="ep0">
+        <span class="exp-co">Segilola Resources</span>
+        <span class="exp-per">Nov 2022 – Present · Nigeria</span>
+      </div>
+      <div class="exp-tab" data-p="ep1">
+        <span class="exp-co">NextResearch LLC</span>
+        <span class="exp-per">Aug 2023 – Present · USA</span>
+      </div>
+      <div class="exp-tab" data-p="ep2">
+        <span class="exp-co">GaoTek Inc</span>
+        <span class="exp-per">May – Aug 2023 · USA</span>
+      </div>
+    </div>
+
+    <!-- panels -->
+    <div>
+
+      <!-- ══ SEGILOLA ══ -->
+      <div class="exp-panel active" id="ep0">
+        <div class="exp-role">ICT Infrastructure</div>
+        <div class="exp-meta">
+          <span class="etag r">Current · 3+ Years</span>
+          <span class="etag">Onsite · Nigeria</span>
+          <span class="etag">Gold Mining</span>
+        </div>
+
+        <ul class="exp-bullets">
+          <li><span class="eb-dot"></span><span class="eb-text">Configured and managed Starlink satellite internet for field and offshore connectivity at remote mining sites with no traditional ISP coverage.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Designed, installed, and maintained fiber optic cabling and point-to-point radio mast communication links across the enterprise campus.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Built an HR automation system that digitized all staff onboarding forms and workflows, reducing paper-based processing by 80%.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Developed the backend for an internal Community Compensation Platform with payment tracking, RBAC roles, and automated reporting.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Built a Clinic Management System backend managing drug inventory, patient vitals, staff authentication, and monthly health reporting.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Provisioned, configured, monitored, and optimized Mikrotik and Cisco routers, switches, and firewalls across all enterprise environments.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Installed and maintained CCTV systems and physical access control infrastructure across all company sites.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Led IT helpdesk operations, asset lifecycle management, risk management, and disaster recovery planning for the ICT department.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Conducted weekly workplace safety meetings ensuring IT compliance with site health and safety standards.</span></li>
+        </ul>
+
+        <!-- newspaper gallery -->
+        <div class="exp-gallery rv" style="margin-top:2.5rem">
+          <div class="np-head">
+            <span class="np-name">Segilola Resources — Field Documentation</span>
+            <span class="np-date">Live Infrastructure Work</span>
+          </div>
+          <div class="np-rule"></div>
+          <div class="np-grid" id="gal-s">
+            <div class="np-photo" data-gal="s" data-i="0" data-cap="Running fiber cable — Segilola mining site">
+              <img src="images/segilola-1.jpg" alt="Fiber cabling on site" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div>
+              <div class="np-cap">Running fiber cable — Segilola site</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="s" data-i="1" data-cap="Starlink satellite setup — field deployment">
+              <img src="images/segilola-2.jpg" alt="Starlink installation" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg></div>
+              <div class="np-cap">Starlink setup — field deployment</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="s" data-i="2" data-cap="Network rack installation — server room">
+              <img src="images/segilola-3.jpg" alt="Network rack" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="3" width="20" height="4" rx="1"/><rect x="2" y="10" width="20" height="4" rx="1"/><rect x="2" y="17" width="20" height="4" rx="1"/></svg></div>
+              <div class="np-cap">Network rack — server room</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="s" data-i="3" data-cap="OTDR fiber testing on site">
+              <img src="images/segilola-4.jpg" alt="Fiber testing" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M6 3v18M18 3v18M6 9h12M6 15h12"/></svg></div>
+              <div class="np-cap">OTDR fiber testing on site</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="s" data-i="4" data-cap="Radio mast — point-to-point link installation">
+              <img src="images/segilola-5.jpg" alt="Radio mast" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4.9 4.9a10 10 0 010 14.2M7.76 7.76a6 6 0 010 8.48M10.6 10.6a2 2 0 010 2.83M12 12v10"/></svg></div>
+              <div class="np-cap">Radio mast — P2P link installation</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+          </div>
+          <p class="np-hint">Add your photos: images/segilola-1.jpg to segilola-5.jpg — click any photo to expand.</p>
+        </div>
+      </div>
+
+      <!-- ══ NEXTRESEARCH ══ -->
+      <div class="exp-panel" id="ep1">
+        <div class="exp-role">DevSecOps / Backend Engineer</div>
+        <div class="exp-meta">
+          <span class="etag r">Current · 2+ Years</span>
+          <span class="etag">Remote · United States</span>
+        </div>
+
+        <ul class="exp-bullets">
+          <li><span class="eb-dot"></span><span class="eb-text">Designed and maintained CI/CD pipelines using Ansible AWX and Terraform for automated, zero-downtime backend deployments.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Deployed HashiCorp Vault for enterprise secrets management and Cloudflare for DNS, CDN, and DDoS protection across all services.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Administered and optimized Linux servers — performance tuning, patch management, CIS benchmark hardening, and monitoring.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Built automated backup systems with real-time Slack and email alerts ensuring data integrity and rapid incident response.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Implemented centralized logging, alerting, and performance monitoring across all backend services and infrastructure.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Performed regular risk assessments, vulnerability scans, and incident response planning to maintain security posture.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Enforced IAM policies, Zero Trust access controls, and compliance procedures aligned with enterprise security standards.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Led cross-functional teams and coordinated cybersecurity best practices across all engineering environments.</span></li>
+        </ul>
+
+        <!-- newspaper gallery -->
+        <div class="exp-gallery rv" style="margin-top:2.5rem">
+          <div class="np-head">
+            <span class="np-name">NextResearch LLC — Lab &amp; Pipeline Screenshots</span>
+            <span class="np-date">DevSecOps · Remote USA</span>
+          </div>
+          <div class="np-rule"></div>
+          <div class="np-grid" id="gal-n">
+            <div class="np-photo" data-gal="n" data-i="0" data-cap="Ansible AWX — live pipeline dashboard">
+              <img src="images/next-1.jpg" alt="Ansible AWX dashboard" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+              <div class="np-cap">Ansible AWX — pipeline dashboard</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="n" data-i="1" data-cap="Terraform apply — IaC provisioning in action">
+              <img src="images/next-2.jpg" alt="Terraform output" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 17L10 11 4 5M12 19h8"/></svg></div>
+              <div class="np-cap">Terraform apply — IaC in action</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="n" data-i="2" data-cap="HashiCorp Vault — secrets engine configuration">
+              <img src="images/next-3.jpg" alt="HashiCorp Vault" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
+              <div class="np-cap">HashiCorp Vault — secrets engine</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="n" data-i="3" data-cap="Linux server terminal — CIS hardening session">
+              <img src="images/next-4.jpg" alt="Linux server" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6 8l2 2-2 2"/><path d="M10 12h4"/></svg></div>
+              <div class="np-cap">Linux server — CIS hardening</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+            <div class="np-photo" data-gal="n" data-i="4" data-cap="Infrastructure monitoring dashboard — live alerts">
+              <img src="images/next-5.jpg" alt="Monitoring dashboard" onerror="this.style.display='none'">
+              <div class="np-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M6 8l3 4 3-2 3 3"/></svg></div>
+              <div class="np-cap">Monitoring — live alert dashboard</div>
+              <div class="np-zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
+            </div>
+          </div>
+          <p class="np-hint">Add your screenshots: images/next-1.jpg to next-5.jpg — click any photo to expand.</p>
+        </div>
+      </div>
+
+      <!-- ══ GAOTEK ══ -->
+      <div class="exp-panel" id="ep2">
+        <div class="exp-role">Technical Support Engineer</div>
+        <div class="exp-meta">
+          <span class="etag">May – Aug 2023</span>
+          <span class="etag">Remote · United States</span>
+        </div>
+        <ul class="exp-bullets">
+          <li><span class="eb-dot"></span><span class="eb-text">Technical writing and documentation for product teams and customer-facing knowledge bases.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Product research for system optimization and backend workflow improvements.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Troubleshooting and debugging of backend services for US-based client projects.</span></li>
+          <li><span class="eb-dot"></span><span class="eb-text">Assisted with internal knowledge base management and support process improvements.</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lb">
+  <button id="lb-close" onclick="closeLb()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+  <button id="lb-prev" onclick="lbNav(-1)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M15 18l-6-6 6-6"/></svg></button>
+  <img id="lb-img" src="" alt="">
+  <div id="lb-cap"></div>
+  <div id="lb-counter"></div>
+  <button id="lb-next" onclick="lbNav(1)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M9 18l6-6-6-6"/></svg></button>
+</div>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-ey">Skills</div>
+  <h2 class="sec-h">Technical <i>Arsenal</i></h2>
+  <div class="bento">
+    <div class="bc red rv"><div class="bc-lbl">Total Experience</div><div class="bignum">5<span>+</span></div><div style="color:rgba(255,255,255,.75);font-size:.8rem;margin-top:.7rem;line-height:1.75">Years building enterprise infrastructure, security systems, and production backends across Nigeria &amp; USA.</div></div>
+    <div class="bc wide rv"><div class="bc-lbl">Infrastructure &amp; Networking</div><div class="chips"><span class="chip">TCP/IP</span><span class="chip">VLANs</span><span class="chip">VPNs</span><span class="chip">Firewalls</span><span class="chip">Cisco</span><span class="chip">Mikrotik RouterOS</span><span class="chip">Pfsense</span><span class="chip">Starlink</span><span class="chip">Fiber Optics</span><span class="chip">Radio Systems</span><span class="chip">MAAS</span><span class="chip">High Availability</span><span class="chip">Virtualization</span><span class="chip">CCTV</span></div></div>
+    <div class="bc tall rv"><div class="bc-lbl">Proficiency Levels</div><div class="bars">
+      <div><div class="bar-n"><span class="bar-name">Infrastructure Ops</span><span class="bar-pct">95%</span></div><div class="bar-tr"><div class="bar-fi" data-w="95"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Ansible / AWX</span><span class="bar-pct">92%</span></div><div class="bar-tr"><div class="bar-fi" data-w="92"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Linux Administration</span><span class="bar-pct">90%</span></div><div class="bar-tr"><div class="bar-fi" data-w="90"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Backend Dev (PHP/Node)</span><span class="bar-pct">85%</span></div><div class="bar-tr"><div class="bar-fi" data-w="85"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Terraform / IaC</span><span class="bar-pct">83%</span></div><div class="bar-tr"><div class="bar-fi" data-w="83"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Cloud (AWS / Azure)</span><span class="bar-pct">80%</span></div><div class="bar-tr"><div class="bar-fi" data-w="80"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Python Scripting</span><span class="bar-pct">80%</span></div><div class="bar-tr"><div class="bar-fi" data-w="80"></div></div></div>
+      <div><div class="bar-n"><span class="bar-name">Penetration Testing</span><span class="bar-pct">75%</span></div><div class="bar-tr"><div class="bar-fi" data-w="75"></div></div></div>
+    </div></div>
+    <div class="bc rv"><div class="bc-lbl">DevOps &amp; Cloud</div><div class="chips"><span class="chip">Ansible AWX</span><span class="chip">Terraform</span><span class="chip">Docker</span><span class="chip">Git / CI-CD</span><span class="chip">HashiCorp Vault</span><span class="chip">Cloudflare</span><span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">IAM</span><span class="chip">Zero Trust</span></div></div>
+    <div class="bc rv"><div class="bc-lbl">Backend &amp; Development</div><div class="chips"><span class="chip">PHP</span><span class="chip">NodeJS</span><span class="chip">Python</span><span class="chip">MySQL</span><span class="chip">NoSQL</span><span class="chip">REST APIs</span><span class="chip">Auth / RBAC</span><span class="chip">Shell Script</span></div></div>
+    <div class="bc rv"><div class="bc-lbl">Security &amp; Monitoring</div><div class="chips"><span class="chip">Suricata NIDS</span><span class="chip">Kibana</span><span class="chip">Filebeat</span><span class="chip">SIEM</span><span class="chip">Centralized Logging</span><span class="chip">Vuln. Mgmt</span><span class="chip">Kali Linux</span><span class="chip">Metasploit</span></div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CURRENTLY BUILDING -->
+<section id="now">
+  <div class="sec-ey">Right Now</div>
+  <h2 class="sec-h">Currently <i>Building</i></h2>
+  <p class="sec-p">Three active production systems I'm engineering right now — not side projects.</p>
+  <div class="now-grid">
+    <div class="now-card rv"><div class="now-pulse"><div class="pulse-dot"></div><span class="pulse-label">Active Development</span></div><div class="now-title">Zero-Trust Network Access System</div><div class="now-desc">Building a full Zero Trust architecture for NextResearch LLC — identity-aware proxies, mutual TLS, micro-segmentation, and continuous verification replacing the legacy VPN model.</div><div class="now-tags"><span class="now-tag">Zero Trust</span><span class="now-tag">mTLS</span><span class="now-tag">IAM</span><span class="now-tag">Cloudflare Access</span><span class="now-tag">Terraform</span></div><div class="now-pct">~65%</div></div>
+    <div class="now-card rv"><div class="now-pulse"><div class="pulse-dot"></div><span class="pulse-label">Active Development</span></div><div class="now-title">Automated Infrastructure Observability Stack</div><div class="now-desc">Full-stack observability platform — metrics, traces, and logs unified into one dashboard with intelligent anomaly detection and auto-incident escalation via Slack/PagerDuty.</div><div class="now-tags"><span class="now-tag">Prometheus</span><span class="now-tag">Grafana</span><span class="now-tag">Loki</span><span class="now-tag">OpenTelemetry</span><span class="now-tag">Python</span></div><div class="now-pct">~40%</div></div>
+    <div class="now-card rv"><div class="now-pulse"><div class="pulse-dot"></div><span class="pulse-label">Active Development</span></div><div class="now-title">Smart Site Security Suite (IoT)</div><div class="now-desc">Expanding the IoT security suite at Segilola Resources — YOLOv4 weapon detection, smart perimeter sensors, and a central alert dashboard for the full mining site.</div><div class="now-tags"><span class="now-tag">YOLOv4</span><span class="now-tag">Raspberry Pi</span><span class="now-tag">MQTT</span><span class="now-tag">Python</span><span class="now-tag">Dashboard</span></div><div class="now-pct">~30%</div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-ey">Projects</div>
+  <h2 class="sec-h">Built &amp; <i>Shipped</i></h2>
+  <p class="sec-p">Real systems I've designed, deployed, and maintained — from mining site infrastructure to cloud-native backends, IoT, and full security labs.</p>
+  <div class="proj-filter">
+    <button class="pf-btn active" data-filter="all">All</button>
+    <button class="pf-btn" data-filter="cybersecurity">Cybersecurity</button>
+    <button class="pf-btn" data-filter="infrastructure">Infrastructure</button>
+    <button class="pf-btn" data-filter="backend">Backend</button>
+    <button class="pf-btn" data-filter="cloud">Cloud</button>
+    <button class="pf-btn" data-filter="iot">IoT</button>
+  </div>
+  <div class="proj-grid">
+    <div class="pc feat rv" data-cat="cybersecurity" data-modal="mNids"><div class="pi"><img src="images/nids.jpg" alt="NIDS" onerror="this.style.display='none'"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="pi-ov"></div><span class="pcat">Cybersecurity</span><div class="pstack"><span class="stag">Suricata</span><span class="stag">Pfsense</span><span class="stag">Kibana</span></div></div><div class="pb"><div class="pt">Network Intrusion Detection System (NIDS)</div><div class="pd">Enterprise NIDS: Suricata IDS + Pfsense firewall + Filebeat log forwarding + Kibana dashboards + live honeypot. Real-time threat detection and attacker profiling.</div><div class="p-actions"><a href="https://www.linkedin.com/posts/adewale-fawaz-oladimeji-172b05215_security-network-data-activity-6979777538747174912-5gNJ" target="_blank" class="pl">LinkedIn Post</a><button class="pl-detail" onclick="openModal('mNids')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="infrastructure" data-modal="mCicd"><div class="pi" style="background:#0a0e1a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="3" width="20" height="4" rx="1"/><rect x="2" y="10" width="20" height="4" rx="1"/><rect x="2" y="17" width="20" height="4" rx="1"/></svg></div><div class="pi-ov"></div><span class="pcat">Infrastructure</span><div class="pstack"><span class="stag">Ansible</span><span class="stag">Terraform</span><span class="stag">Vault</span></div></div><div class="pb"><div class="pt">CI/CD Pipeline &amp; Infrastructure Automation</div><div class="pd">Ansible AWX + Terraform IaC + HashiCorp Vault. Zero-downtime deployments, automated backups, real-time Slack/email monitoring.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mCicd')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="infrastructure" data-modal="mHr"><div class="pi" style="background:#0d1a0a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div><div class="pi-ov"></div><span class="pcat">Automation</span><div class="pstack"><span class="stag">PHP</span><span class="stag">MySQL</span><span class="stag">RBAC</span></div></div><div class="pb"><div class="pt">HR Automation System</div><div class="pd">Digitized all staff onboarding forms and HR workflows at Segilola Resources — reducing paper-based processing by 80%.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mHr')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="cloud" data-modal="mCloud"><div class="pi" style="background:#0a1a0e"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999A5.002 5.002 0 003 9v6z"/></svg></div><div class="pi-ov"></div><span class="pcat">Cloud</span><div class="pstack"><span class="stag">AWS</span><span class="stag">Azure</span><span class="stag">Terraform</span></div></div><div class="pb"><div class="pt">AWS to Azure Full Cloud Migration</div><div class="pd">Complete workload migration from AWS to Microsoft Azure. "Professional and quick." — US client · $400.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mCloud')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="cybersecurity" data-modal="mPentest"><div class="pi" style="background:#1a0a10"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v3M11 14h.01"/></svg></div><div class="pi-ov"></div><span class="pcat">Security</span><div class="pstack"><span class="stag">Pentest</span><span class="stag">SIEM</span><span class="stag">AI</span></div></div><div class="pb"><div class="pt">Pentest &amp; SIEM with AI Integration</div><div class="pd">Full penetration test + SIEM deployment + AI-powered anomaly detection. Complete audit and remediation roadmap.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mPentest')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="cybersecurity" data-modal="mHoneypot"><div class="pi" style="background:#1a100a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><circle cx="12" cy="12" r="4"/></svg></div><div class="pi-ov"></div><span class="pcat">Cybersecurity</span><div class="pstack"><span class="stag">Honeypot</span><span class="stag">ELK</span><span class="stag">Telegram</span></div></div><div class="pb"><div class="pt">Security Honeypot Environment</div><div class="pd">Production honeypot for threat intelligence — attacker session logging, real-time Telegram alerts, TTP analysis. $690 freelance.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mHoneypot')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="infrastructure" data-modal="mMonitor"><div class="pi" style="background:#0a0e1a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6 8l3 4 3-2 3 3"/></svg></div><div class="pi-ov"></div><span class="pcat">Infrastructure</span><div class="pstack"><span class="stag">PHP</span><span class="stag">Linux</span><span class="stag">Web UI</span></div></div><div class="pb"><div class="pt">Ubuntu Server Monitoring Dashboard</div><div class="pd">Web-based real-time Ubuntu monitoring: CPU, RAM, disk, network, live logs, service status. "Fast and efficient!" — UK client.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mMonitor')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="backend" data-modal="mComp"><div class="pi" style="background:#0f0a1a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/><path d="M7 15h2M11 15h4"/></svg></div><div class="pi-ov"></div><span class="pcat">Backend</span><div class="pstack"><span class="stag">PHP</span><span class="stag">MySQL</span><span class="stag">RBAC</span></div></div><div class="pb"><div class="pt">Community Compensation Platform</div><div class="pd">Secure backend for compensation payment distribution — tracking, RBAC, automated PDF reports. Live at Segilola Resources.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mComp')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="backend" data-modal="mHostel"><div class="pi" style="background:#0a1a10"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg></div><div class="pi-ov"></div><span class="pcat">Web App</span><div class="pstack"><span class="stag">PHP</span><span class="stag">MySQL</span><span class="stag">JS</span></div></div><div class="pb"><div class="pt">HostelConnect — Student Housing Platform</div><div class="pd">Student–landlord–roommate matching with RBAC auth, listings, availability tracking, and location-based matching algorithm.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mHostel')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="backend" data-modal="mAura"><div class="pi" style="background:#1a0d0a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg></div><div class="pi-ov"></div><span class="pcat">E-commerce</span><div class="pstack"><span class="stag">PHP</span><span class="stag">NodeJS</span><span class="stag">MySQL</span></div></div><div class="pb"><div class="pt">Aura Essence E-commerce Backend</div><div class="pd">Full e-commerce backend: product catalog, cart, checkout, payment gateway, order management, admin dashboard.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mAura')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="iot" data-modal="mIot"><div class="pi"><img src="images/iot.jpg" alt="IoT" onerror="this.style.display='none'"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2M12 12v4M10 14h4"/></svg></div><div class="pi-ov"></div><span class="pcat">IoT</span><div class="pstack"><span class="stag">Arduino</span><span class="stag">YOLOv4</span><span class="stag">Python</span></div></div><div class="pb"><div class="pt">IoT Prototypes Suite (10+ Devices)</div><div class="pd">Fire alarm, smart walking stick, garage door, trash bin, and YOLOv4 AI weapon detection with live Telegram alerts.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mIot')">Full Details</button></div></div></div>
+    <div class="pc rv" data-cat="infrastructure" data-modal="mAnsible"><div class="pi" style="background:#1a150a"><div class="pi-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><div class="pi-ov"></div><span class="pcat">DevOps</span><div class="pstack"><span class="stag">Ansible</span><span class="stag">Python</span><span class="stag">Bash</span></div></div><div class="pb"><div class="pt">Ansible Config &amp; DevOps Consulting</div><div class="pd">Fixed a broken Ansible deployment pipeline for a New York client. "It is my honor to recommend him." · $135.50.</div><div class="p-actions"><button class="pl-detail" onclick="openModal('mAnsible')">Full Details</button></div></div></div>
+  </div>
+</section>
+
+<!-- PROJECT MODALS -->
+<div class="modal-bg" id="modal-wrap" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+    <div class="modal-img" id="m-img"></div>
+    <div class="modal-body">
+      <div class="modal-cat" id="m-cat"></div>
+      <div class="modal-title" id="m-title"></div>
+      <div id="m-content"></div>
+      <div class="modal-links" id="m-links"></div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- GITHUB -->
+<section id="github">
+  <div class="sec-ey">Open Source</div>
+  <h2 class="sec-h">Find Me on <i>GitHub</i></h2>
+  <div class="gh-layout">
+    <div class="rvl">
+      <p class="gh-info-p">I publish scripts, automation tools, security configs, and project code on GitHub — from <strong>Ansible playbooks and Terraform modules</strong> to <strong>IoT firmware, backend APIs, and security utilities</strong>.</p>
+      <p class="gh-info-p">If my work helped you — star a repo, open an issue, or just say hi. Every star fuels more open-source work.</p>
+      <a href="https://github.com/cybertr0n" target="_blank" class="gh-star-btn">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <span>Star on GitHub</span>
+      </a>
+      <a href="https://github.com/cybertr0n" target="_blank" class="gh-visit-link" style="margin-left:1.5rem">View all repos</a>
+      <div class="gh-stats-row">
+        <div><div class="gh-stat-n">12<span>+</span></div><div class="gh-stat-l">Repositories</div></div>
+        <div><div class="gh-stat-n">5<span>+</span></div><div class="gh-stat-l">Languages</div></div>
+        <div><div class="gh-stat-n">3<span>yrs</span></div><div class="gh-stat-l">Active</div></div>
+      </div>
+    </div>
+    <div class="rvr">
+      <div class="gh-repos">
+        <a href="https://github.com/cybertr0n" target="_blank" class="gh-repo"><div><div class="gh-repo-name">nids-lab</div><div class="gh-repo-desc">Suricata + Pfsense + ELK stack NIDS with honeypot config and Kibana dashboards.</div></div><div class="gh-repo-right"><span class="gh-lang">Python</span><span class="gh-star-count"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></div></a>
+        <a href="https://github.com/cybertr0n" target="_blank" class="gh-repo"><div><div class="gh-repo-name">ansible-playbooks</div><div class="gh-repo-desc">Production-ready Ansible playbooks for Linux hardening, app deployment, and backup automation.</div></div><div class="gh-repo-right"><span class="gh-lang">YAML</span></div></a>
+        <a href="https://github.com/cybertr0n" target="_blank" class="gh-repo"><div><div class="gh-repo-name">iot-security-suite</div><div class="gh-repo-desc">Arduino + Raspberry Pi IoT security prototypes including YOLOv4 weapon detection with Telegram alerts.</div></div><div class="gh-repo-right"><span class="gh-lang">Python</span></div></a>
+        <a href="https://github.com/cybertr0n" target="_blank" class="gh-repo"><div><div class="gh-repo-name">terraform-modules</div><div class="gh-repo-desc">Reusable Terraform modules for AWS and Azure — VPCs, VMs, IAM, DNS, and security group configs.</div></div><div class="gh-repo-right"><span class="gh-lang">HCL</span></div></a>
+      </div>
+      <p style="font-family:var(--mono);font-size:.55rem;color:var(--muted);margin-top:.8rem;letter-spacing:.07em">Update repo names to match your actual GitHub username and repositories.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="sec-ey">Writing</div>
+  <h2 class="sec-h">Thoughts &amp; <i>Technical Deep-Dives</i></h2>
+  <p class="sec-p">I write about infrastructure, DevSecOps, cybersecurity, and real-world engineering problems on Medium.</p>
+  <div class="blog-grid">
+    <a href="https://medium.com/@fawazadewale120" target="_blank" class="blog-card rv"><div class="blog-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg><span class="blog-tag">Infrastructure</span></div><div class="blog-body"><div class="blog-date">Add post date</div><div class="blog-title">How I Manage Starlink Connectivity for a Remote Gold Mining Site</div><div class="blog-excerpt">Satellite internet for an active mining operation presents challenges most network engineers never face. The real story.</div><span class="blog-read">Read on Medium</span></div></a>
+    <a href="https://medium.com/@fawazadewale120" target="_blank" class="blog-card rv"><div class="blog-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span class="blog-tag">Cybersecurity</span></div><div class="blog-body"><div class="blog-date">Add post date</div><div class="blog-title">Building a Production NIDS with Suricata, Pfsense and Kibana</div><div class="blog-excerpt">A step-by-step walkthrough of deploying a real Network Intrusion Detection System — not a lab, actual production infrastructure.</div><span class="blog-read">Read on Medium</span></div></a>
+    <a href="https://medium.com/@fawazadewale120" target="_blank" class="blog-card rv"><div class="blog-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg><span class="blog-tag">DevSecOps</span></div><div class="blog-body"><div class="blog-date">Add post date</div><div class="blog-title">HashiCorp Vault in Production: Secrets Management Without the Pain</div><div class="blog-excerpt">Why every team running Ansible and Terraform should be using Vault — and how to set it up without breaking everything.</div><span class="blog-read">Read on Medium</span></div></a>
+  </div>
+  <div class="blog-cta">
+    <div class="blog-cta-text">All articles on <strong>Medium</strong> — follow for new posts.</div>
+    <a href="https://medium.com/@fawazadewale120" target="_blank" class="medium-btn">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+      Follow on Medium
+    </a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- REVIEWS -->
+<section id="freelance">
+  <div class="sec-ey">Client Reviews</div>
+  <h2 class="sec-h">What Clients <i>Say</i></h2>
+  <div class="fl-top-grid">
+    <div class="fl-top-cell rv"><div class="fl-top-num">5.0<span>★</span></div><div class="fl-top-lbl">Overall Rating</div></div>
+    <div class="fl-top-cell rv"><div class="fl-top-num">100<span>%</span></div><div class="fl-top-lbl">On Time</div></div>
+    <div class="fl-top-cell rv"><div class="fl-top-num">100<span>%</span></div><div class="fl-top-lbl">On Budget</div></div>
+    <div class="fl-top-cell rv"><div class="fl-top-num">16<span>+</span></div><div class="fl-top-lbl">Projects Done</div></div>
+  </div>
+  <div class="rev-grid">
+    <div class="rev-card rv"><div class="rev-amount">$135.50 USD</div><div class="rev-stars">★★★★★</div><div class="rev-text">Adewale Fawaz is a great engineer and got my problem fixed fast. Kind, focused, dedicated. It is my honor to recommend him to anyone.</div><div class="rev-project">Ansible Config / DevOps</div><div class="rev-name">Erich B. — @ejbest2000</div><div class="rev-loc">New York City, United States</div></div>
+    <div class="rev-card rv"><div class="rev-amount">$690 USD</div><div class="rev-stars">★★★★★</div><div class="rev-text">He is hard working and delivered the project on time.</div><div class="rev-project">Cybersecurity Honeypot System</div><div class="rev-name">Mahmoud A. — @Mamdouh1o1</div><div class="rev-loc">Al Jubail, Saudi Arabia</div></div>
+    <div class="rev-card rv"><div class="rev-amount">$400 USD</div><div class="rev-stars">★★★★★</div><div class="rev-text">Fawaz is professional and quick.</div><div class="rev-project">AWS to Azure Migration</div><div class="rev-name">Tarun S. — @tarunshri8</div><div class="rev-loc">Windermere, United States</div></div>
+    <div class="rev-card rv"><div class="rev-amount">$200 USD</div><div class="rev-stars">★★★★★</div><div class="rev-text">He did a really good job. I'm very happy. Thank you.</div><div class="rev-project">Remote Technical Support</div><div class="rev-name">Verified Client</div><div class="rev-loc">Freelancer.com</div></div>
+    <div class="rev-card rv"><div class="rev-amount">£30 GBP</div><div class="rev-stars">★★★★★</div><div class="rev-text">Fast and efficient, will hire again!</div><div class="rev-project">Ubuntu Server Monitoring UI</div><div class="rev-name">Daniel J. — @Pendulumslots</div><div class="rev-loc">West Bromwich, United Kingdom</div></div>
+    <div class="rev-card rv"><div class="rev-amount">$140 USD</div><div class="rev-stars">★★★★★</div><div class="rev-text">Provided perfect work related to Python codes and data privacy.</div><div class="rev-project">Python Code &amp; Data Privacy</div><div class="rev-name">Abo Raed A. — @rashid180</div><div class="rev-loc">Riyadh, Saudi Arabia</div></div>
+    <div class="rev-card rv"><div class="rev-amount">₹1,200 INR</div><div class="rev-stars">★★★★★</div><div class="rev-text">Adewale F. is a great Developer. Did great job for my Python NLP project. 100% recommended, will take services again for sure.</div><div class="rev-project">Python NLP Application</div><div class="rev-name">Mohua A. — @mohuaakter</div><div class="rev-loc">Keraniganj, Bangladesh</div></div>
+    <div class="rev-card rv"><div class="rev-amount">$70 USD</div><div class="rev-stars">★★★★★</div><div class="rev-text">Excellent Python developer, will work with him again.</div><div class="rev-project">YData Synthetic / Streamlit</div><div class="rev-name">David O. — @consultiapro</div><div class="rev-loc">Croydon, United Kingdom</div></div>
+    <div class="rev-card rv"><div class="rev-amount">$50 AUD</div><div class="rev-stars">★★★★★</div><div class="rev-text">The project was completed punctually and met high-quality standards.</div><div class="rev-project">Software Security Survey</div><div class="rev-name">Mehdi K. — @Mehdikh25</div><div class="rev-loc">Adelaide, Australia</div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="sec-ey">Education</div>
+  <h2 class="sec-h">Academic <i>Background</i></h2>
+  <div class="edu-grid">
+    <div class="edu-card rv"><div class="edu-yr">2023</div><div class="edu-deg">B.Sc. Computer Science</div><div class="edu-sch">University of Ilesa, Osun State, Nigeria</div><span class="edu-gpa">CGPA: 4.68 / 5.0</span></div>
+    <div class="edu-card rv"><div class="edu-yr">2021 – 2023</div><div class="edu-deg">Diploma in Networking &amp; System Security</div><div class="edu-sch">Elerinmosa Institute of Technology, Osun State</div><span class="edu-gpa">CGPA: 3.9 / 4.0</span></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-ey">Contact</div>
+  <h2 class="sec-h">Let's Build <i>Something Great</i></h2>
+  <p class="sec-p">Available for infrastructure, DevSecOps, backend, cybersecurity, and consulting projects. I respond within 24 hours.</p>
+  <div class="ct-layout">
+    <div class="rvl">
+      <div class="c-list">
+        <a class="c-item" href="mailto:fawazadewale120@gmail.com"><div class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 6 10-6"/></svg></div><div><div class="c-lbl">Primary Email</div><div class="c-val">fawazadewale120@gmail.com</div></div></a>
+        <a class="c-item" href="mailto:cybertrontech34@gmail.com"><div class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 6 10-6"/></svg></div><div><div class="c-lbl">Tech / Backend</div><div class="c-val">cybertrontech34@gmail.com</div></div></a>
+        <a class="c-item" href="tel:+2347040357149"><div class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg></div><div><div class="c-lbl">Phone / WhatsApp</div><div class="c-val">+234 704 035 7149</div></div></a>
+        <a class="c-item" href="https://www.freelancer.com/u/cybertr0n" target="_blank"><div class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#c70039" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2M12 12v4M10 14h4"/></svg></div><div><div class="c-lbl">Freelancer.com</div><div class="c-val">@cybertr0n · 5.0★</div></div></a>
+      </div>
+      <div class="c-soc">
+        <a href="https://www.linkedin.com/in/adewale-fawaz-oladimeji-172b05215/" target="_blank" class="csb"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="https://github.com/cybertr0n" target="_blank" class="csb"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg></a>
+        <a href="https://medium.com/@fawazadewale120" target="_blank" class="csb"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg></a>
+        <a href="https://www.freelancer.com/u/cybertr0n" target="_blank" class="csb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8l4 4-4 4"/></svg></a>
+      </div>
+      <div class="c-note"><p>Available for <strong>freelance, consulting, and full-time remote roles</strong>. Open to companies worldwide — any timezone.</p></div>
+    </div>
+    <div class="rvr">
+      <div class="frow"><div class="fg"><label>Your Name</label><input type="text" id="f-name" placeholder="John Smith"></div><div class="fg"><label>Email</label><input type="email" id="f-email" placeholder="john@company.com"></div></div>
+      <div class="frow"><div class="fg"><label>Company</label><input type="text" id="f-company" placeholder="Acme Corp"></div><div class="fg"><label>Service Needed</label><select id="f-service"><option value="">Select a service...</option><option>Infrastructure Engineering</option><option>DevSecOps / CI-CD</option><option>Backend Development</option><option>Cybersecurity / Pentest</option><option>Cloud Migration</option><option>IoT Engineering</option><option>Technical Consulting</option><option>Other</option></select></div></div>
+      <div class="fg"><label>Budget Range</label><input type="text" id="f-budget" placeholder="e.g. $500 – $2,000 USD"></div>
+      <div class="fg"><label>Message</label><textarea id="f-msg" placeholder="Describe your project, requirements, and timeline..."></textarea></div>
+      <button class="sbtn" id="f-submit">Send Message</button>
+      <div class="form-success" id="f-success">Message sent — I'll respond within 24 hours.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="f-logo"><b>Cyber</b>tron</div>
+  <div>© 2025 Adewale Fawaz Oladimeji</div>
+  <div class="f-links">
+    <a href="mailto:fawazadewale120@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/adewale-fawaz-oladimeji-172b05215/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/cybertr0n" target="_blank">GitHub</a>
+    <a href="https://medium.com/@fawazadewale120" target="_blank">Medium</a>
+    <a href="https://www.freelancer.com/u/cybertr0n" target="_blank">Freelancer</a>
+  </div>
+</footer>
+
+<script src="script.js"> </script>
+</body>
+</html>
